@@ -1,3 +1,7 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
 /* Common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -14,6 +18,22 @@ body {
     color: #FFF;
     font-size: 20px;
     padding: 18px 35px;
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 150px;
 }
 
 /* Nav related style */
@@ -48,12 +68,71 @@ nav a{
 /* Header related style */
 .header {
     background-color: #FFF8F3;
+    background-image: url('./Asset/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+.banner-content {
+    max-width: 600px;
+}
+
 .profile-pic {
-    width: 300px;
+    width: 585px;
+    height: 675px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.banner-title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #181818;
+    font-size: 55px;
+    font-weight: 700;
+}
+.banner-description {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main section style */
+main {
+    /* max-width: 1200px; */
+}
+/* about section style */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    max-width: 1200px;
+}
+
+/* info container  */
+.about-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-info {
+    text-align: center;
+}
+
+/* what I do  */
+#what-I-do-description {
+    padding: 30px 150px;
 }
